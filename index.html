@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API Request Tester > Formatted JSON Response</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>API Request Tester</h1>
+                <p>Formatted JSON Response</h1>
+
+                    <div class="content-cont"></div>
+                    <code type="text" class="list-group-item" id="endpoint" contenteditable="true">https://webcamstravel.p.mashape.com/webcams/list/bbox=44,-110,22,-112?show=webcams%3Aimage%2Clocation</code>
+                    <div class="card">
+                        <div class="card-header" id="apititle">
+                            <button id="GET">GET</button>
+                            <button id="POST">POST</button>
+                        </div>
+                        <ul class="list-group">
+
+                            <li class="list-group-item" id="resultsdata">
+                                <pre id="json-renderer" class="json-body"></pre>
+                            </li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" />
+</body>
+</html >
